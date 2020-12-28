@@ -30,7 +30,9 @@ print(a_list)
 
 reverseList(a_list)
 
+  
 
+  
 
 a_dict={"a":10,"b":12,"c":14,"d":14,"e":16,"f":28,"g":28,"h":30}
 
@@ -38,3 +40,4 @@ a_dict = RemoveDuplicates(a_dict)
 print(a_dict)
 
 reverseDict(a_dict)
+
