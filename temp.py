@@ -1,10 +1,16 @@
 import operator
 
+
+
 def removeDuplicates(x):
   return list(dict.fromkeys(x))
 
+
+
 def reverseList(x):
     print(sorted(x,reverse=True))
+
+
 
 def RemoveDuplicates(x):
     result = {}
@@ -12,6 +18,8 @@ def RemoveDuplicates(x):
         if value not in result.values():
             result[key] = value
     return result
+
+
 
 def reverseDict(x):
     sorted_a_dict = sorted(x.items(), key=operator.itemgetter(1),reverse=True)
